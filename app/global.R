@@ -9,7 +9,7 @@ message(config_set_name)
 
 #' Set the lake directory to the repository directory
 
-lake_directory <- file.path(here::here(), "app")
+lake_directory <- getwd()
 
 
 #' Source the R files in the repository
@@ -180,7 +180,7 @@ thermocline <- rLakeAnalyzer::ts.thermo.depth(wtemp)
 # 
 today_date <- Sys.Date()
 # 
-filename <- normalizePath(file.path("app", "data", "forecasts", "fcre", "realtime", paste0("fcre-", today_date, ".nc")))
+filename <- normalizePath(file.path("data", "forecasts", "fcre", "realtime", paste0("fcre-", today_date, ".nc")))
 # 
 # 
 # tryCatch({ #because we know there are 4 days missing so this will bonk 4 times
@@ -202,7 +202,7 @@ filename <- normalizePath(file.path("app", "data", "forecasts", "fcre", "realtim
 
 # Read FLARE forecasts ----
 today_date <- "2021-06-06"
-filename <- normalizePath(file.path("app", "data", "forecasts", "fcre", "realtime", paste0("fcre-", today_date, ".nc")))
+filename <- normalizePath(file.path("forecasts", "fcre", "realtime", paste0("fcre-", today_date, ".nc")))
 
 fc_temp <- read_flare_temp(file = filename)
 

@@ -1,0 +1,14 @@
+name: FCRE-dashboard
+title: FCRE-dashboard
+username:
+account: macrosystemseddie
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6412080
+bundleId: 5968310
+url: https://macrosystemseddie.shinyapps.io/FCRE-dashboard/
+when: 1654099351.13927
+lastSyncTime: 1654099351.13927
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: targets/fcre/fcre-targets-inflow.csv|targets/fcre/fcre-targets-insitu.csv|targets/fcre/observed-met_fcre.nc|data_raw

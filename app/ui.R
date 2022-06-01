@@ -16,7 +16,7 @@ ui <- dashboardPage(
       # First tab content
       tabItem(tabName = "dashboard",
               fluidRow(
-                column(
+                column(9,
                   h1("Welcome to the Falling Creek Reservoir Data Dashboard!"),
                   p("Explore our high frequency sensor data and our forecasts.")
                 )
