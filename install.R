@@ -1,0 +1,18 @@
+install.packages("shiny")
+install.packages("shinydashboard")
+install.packages("ggplot2")
+install.packages("plotly")
+install.packages("ncdf4")
+install.packages("reshape")
+install.packages("rLakeAnalyzer")
+install.packages("LakeMetabolizer")
+install.packages("DT")
+install.packages("tidyverse")
+install.packages("RColorBrewer")
+install.packages("plyr")
+install.packages("reshape2")
+install.packages("rmarkdown")
+install.packages("remotes")
+remotes::install_github("FLARE-forecast/FLAREr") 
+
+# end
